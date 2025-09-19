@@ -83,7 +83,7 @@ The model was trained for 20 epochs with the following configuration:
 - **Train Accuracy**: 90.84%
 - **Test Accuracy**: 99.41%
 
-# Training Logs
+### Training Logs
 
 Epoch 1
 Train: Loss=0.4579 Batch_id=937 Accuracy=76.20: 100%|██████████| 938/938 [00:20<00:00, 45.02it/s]
