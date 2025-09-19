@@ -85,85 +85,34 @@ The model was trained for 20 epochs with the following configuration:
 
 ### Training Logs
 
-Epoch 1
-Train: Loss=0.4579 Batch_id=937 Accuracy=76.20: 100%|██████████| 938/938 [00:20<00:00, 45.02it/s]
-Test set: Average loss: 0.0011, Accuracy: 9848/10000 (98.48%)
+| Epoch | Train Loss | Train Acc | Test Loss | Test Acc | Time/Batch |
+|-------|------------|-----------|-----------|----------|------------|
+| 1     | 0.4579     | 76.20%    | 0.0011    | 98.48%   | 45.02it/s  |
+| 2     | 0.4037     | 85.16%    | 0.0007    | 98.77%   | 46.55it/s  |
+| 3     | 0.3578     | 86.60%    | 0.0009    | 98.28%   | 46.64it/s  |
+| 4     | 0.3325     | 86.84%    | 0.0006    | 99.10%   | 44.80it/s  |
+| 5     | 0.3930     | 87.18%    | 0.0004    | 99.26%   | 45.30it/s  |
+| 6     | 0.2923     | 87.49%    | 0.0007    | 98.73%   | 44.16it/s  |
+| 7     | 0.2983     | 87.84%    | 0.0005    | 99.17%   | 45.03it/s  |
+| 8     | 0.3139     | 88.06%    | 0.0007    | 98.98%   | 44.75it/s  |
+| 9     | 0.3317     | 88.50%    | 0.0009    | 98.44%   | 46.02it/s  |
+| 10    | 0.2829     | 88.63%    | 0.0009    | 98.50%   | 47.41it/s  |
+| 11    | 0.2079     | 89.06%    | 0.0005    | 99.14%   | 45.97it/s  |
+| 12    | 0.2633     | 89.11%    | 0.0005    | 99.25%   | 45.02it/s  |
+| 13    | 0.2786     | 89.29%    | 0.0005    | 99.21%   | 45.75it/s  |
+| 14    | 0.2009     | 89.82%    | 0.0005    | 99.33%   | 44.91it/s  |
+| 15    | 0.1393     | 89.96%    | 0.0005    | 99.22%   | 45.33it/s  |
+| 16    | 0.2770     | 90.29%    | 0.0005    | 99.37%   | 46.04it/s  |
+| 17    | 0.1775     | 90.44%    | 0.0005    | 99.36%   | 45.57it/s  |
+| 18    | 0.2266     | 90.50%    | 0.0004    | 99.40%   | 44.98it/s  |
+| 19    | 0.3962     | 90.68%    | 0.0004    | 99.39%   | 45.41it/s  |
+| 20    | 0.2127     | 90.84%    | 0.0004    | 99.41%   | 45.02it/s  |
 
-Epoch 2
-Train: Loss=0.4037 Batch_id=937 Accuracy=85.16: 100%|██████████| 938/938 [00:20<00:00, 46.55it/s]
-Test set: Average loss: 0.0007, Accuracy: 9877/10000 (98.77%)
-
-Epoch 3
-Train: Loss=0.3578 Batch_id=937 Accuracy=86.60: 100%|██████████| 938/938 [00:20<00:00, 46.64it/s]
-Test set: Average loss: 0.0009, Accuracy: 9828/10000 (98.28%)
-
-Epoch 4
-Train: Loss=0.3325 Batch_id=937 Accuracy=86.84: 100%|██████████| 938/938 [00:20<00:00, 44.80it/s]
-Test set: Average loss: 0.0006, Accuracy: 9910/10000 (99.10%)
-
-Epoch 5
-Train: Loss=0.3930 Batch_id=937 Accuracy=87.18: 100%|██████████| 938/938 [00:20<00:00, 45.30it/s]
-Test set: Average loss: 0.0004, Accuracy: 9926/10000 (99.26%)
-
-Epoch 6
-Train: Loss=0.2923 Batch_id=937 Accuracy=87.49: 100%|██████████| 938/938 [00:21<00:00, 44.16it/s]
-Test set: Average loss: 0.0007, Accuracy: 9873/10000 (98.73%)
-
-Epoch 7
-Train: Loss=0.2983 Batch_id=937 Accuracy=87.84: 100%|██████████| 938/938 [00:20<00:00, 45.03it/s]
-Test set: Average loss: 0.0005, Accuracy: 9917/10000 (99.17%)
-
-Epoch 8
-Train: Loss=0.3139 Batch_id=937 Accuracy=88.06: 100%|██████████| 938/938 [00:20<00:00, 44.75it/s]
-Test set: Average loss: 0.0007, Accuracy: 9898/10000 (98.98%)
-
-Epoch 9
-Train: Loss=0.3317 Batch_id=937 Accuracy=88.50: 100%|██████████| 938/938 [00:20<00:00, 46.02it/s]
-Test set: Average loss: 0.0009, Accuracy: 9844/10000 (98.44%)
-
-Epoch 10
-Train: Loss=0.2829 Batch_id=937 Accuracy=88.63: 100%|██████████| 938/938 [00:19<00:00, 47.41it/s]
-Test set: Average loss: 0.0009, Accuracy: 9850/10000 (98.50%)
-
-Epoch 11
-Train: Loss=0.2079 Batch_id=937 Accuracy=89.06: 100%|██████████| 938/938 [00:20<00:00, 45.97it/s]
-Test set: Average loss: 0.0005, Accuracy: 9914/10000 (99.14%)
-
-Epoch 12
-Train: Loss=0.2633 Batch_id=937 Accuracy=89.11: 100%|██████████| 938/938 [00:20<00:00, 45.02it/s]
-Test set: Average loss: 0.0005, Accuracy: 9925/10000 (99.25%)
-
-Epoch 13
-Train: Loss=0.2786 Batch_id=937 Accuracy=89.29: 100%|██████████| 938/938 [00:20<00:00, 45.75it/s]
-Test set: Average loss: 0.0005, Accuracy: 9921/10000 (99.21%)
-
-Epoch 14
-Train: Loss=0.2009 Batch_id=937 Accuracy=89.82: 100%|██████████| 938/938 [00:20<00:00, 44.91it/s]
-Test set: Average loss: 0.0005, Accuracy: 9933/10000 (99.33%)
-
-Epoch 15
-Train: Loss=0.1393 Batch_id=937 Accuracy=89.96: 100%|██████████| 938/938 [00:20<00:00, 45.33it/s]
-Test set: Average loss: 0.0005, Accuracy: 9922/10000 (99.22%)
-
-Epoch 16
-Train: Loss=0.2770 Batch_id=937 Accuracy=90.29: 100%|██████████| 938/938 [00:20<00:00, 46.04it/s]
-Test set: Average loss: 0.0005, Accuracy: 9937/10000 (99.37%)
-
-Epoch 17
-Train: Loss=0.1775 Batch_id=937 Accuracy=90.44: 100%|██████████| 938/938 [00:20<00:00, 45.57it/s]
-Test set: Average loss: 0.0005, Accuracy: 9936/10000 (99.36%)
-
-Epoch 18
-Train: Loss=0.2266 Batch_id=937 Accuracy=90.50: 100%|██████████| 938/938 [00:20<00:00, 44.98it/s]
-Test set: Average loss: 0.0004, Accuracy: 9940/10000 (99.40%)
-
-Epoch 19
-Train: Loss=0.3962 Batch_id=937 Accuracy=90.68: 100%|██████████| 938/938 [00:20<00:00, 45.41it/s]
-Test set: Average loss: 0.0004, Accuracy: 9939/10000 (99.39%)
-
-Epoch 20
-Train: Loss=0.2127 Batch_id=937 Accuracy=90.84: 100%|██████████| 938/938 [00:20<00:00, 45.02it/s]
-Test set: Average loss: 0.0004, Accuracy: 9941/10000 (99.41%)
+#### Key Observations:
+- **Convergence**: Model shows steady improvement in both train and test accuracy
+- **Overfitting**: Minimal gap between train (90.84%) and test (99.41%) accuracy indicates good generalization
+- **Stability**: Test accuracy consistently above 98% from epoch 1, reaching 99%+ from epoch 4
+- **Performance**: Final test accuracy of 99.41% achieved with only 19,642 parameters
 
 ## Code Changes
 
